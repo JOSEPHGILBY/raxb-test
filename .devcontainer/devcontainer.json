@@ -11,7 +11,8 @@
 	},
 	"mounts": [
 		{"source": "jdk-submodule", "target": "/workspaces/raxb-test/jdk", "type": "volume" },
-		{"source": "jtreg-submodule", "target": "/workspaces/raxb-test/jtreg", "type": "volume"}
+		{"source": "jtreg-submodule", "target": "/workspaces/raxb-test/jtreg", "type": "volume"},
+		{"source": "xerces-submodule", "target": "/workspace/trunk", "type": "volume"}
 	],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
